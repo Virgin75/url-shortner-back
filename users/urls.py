@@ -5,6 +5,5 @@ urlpatterns = [
     path('test', views.sample_api),
     path('login', views.login),
     path('register2', views.signup),
-    path('register', views.UserCreate.as_view()),
 
 ]

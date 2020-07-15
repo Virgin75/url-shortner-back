@@ -43,7 +43,9 @@ INSTALLED_APPS = [
 
     # Django Rest Framework
     'rest_framework',
-    'rest_framework.authtoken'
+    'rest_framework.authtoken',
+
+    'randomslugfield'
 ]
 
 REST_FRAMEWORK = {
